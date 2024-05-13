@@ -1,30 +1,34 @@
-# Degree Days Analysis Tool
+# Estimate Heating and Cooling Costs Using Degree Days
 
-Welcome to Degree Days Analysis Tool. An ideal resource for utility companies, energy analysts, and environmental scientists, this application analyzes energy consumption and demand patterns using Degree Days. By simply inputting geographical coordinates, including longitude and latitude, and a cost parameter, our Degree Days Analysis Tool generates detailed energy consumption insights for any location.
-
-## Enter Your Data
-- Latitude: Enter the precise decimal latitude of the location you want to study. Latitude ranges from -90 (South Pole) to 90 (North Pole).
+Estimate the heating and cooling costs for a building in a specific location over a year using the degree days algorithm. Specify the cost of electricity in kilowatt-hours to estimate how much would be spent on heating and cooling in a year.
 
 { latitude }
 
-- Longitude: Provide the exact decimal longitude of the location. Longitude spans from -180 to 180.
-
 { longitude }
-
-- Cost: Input your specific cost parameter, such as the per-unit energy cost in your area or an average energy cost you want to assess.
 
 { cost }
 
-## Activating the Degree Days Analysis
-Upon entering the necessary data, activate the Degree Days analysis by clicking the 'Continue' button below. 
-
 { BUTTON_PANEL }
 
-Our tool will process your inputs using advanced computational algorithms and generate an in-depth Degree Days report in the next page.
+## Definitions
 
-## Connect with CrossCompute
-At CrossCompute, we're committed to providing you with innovative, user-friendly tools to meet your electricity planning needs. We value your feedback and are here to support you as you navigate our services.
+- [Degree days](https://en.wikipedia.org/wiki/Degree_day) measure how hot or cold a location was compared to a baseline temperature.
+- Heating degree days (HDD) measure how cold the temperature was on a given day or during a period of days.
+- Heating degree days cost (HDD_COST) estimates how much would be spent on heating in a year.
+- Cooling degree days (CDD) measure how hot the temperature was on a given day or during a period of days.
+- Cooling degree days cost (CDD_COST) estimates how much would be spent on cooling in a year.
 
-Discover more of our tools at [crosscompute.net](www.crosscompute.net).
+## Acknowledgments
 
-**Support**: Need help or have questions about this tool or any of our other tools? Our dedicated support team is ready to assist. Reach out to us at [support@crosscompute.com](mailto:support@crosscompute.com).
+The degree days algorithm is specified in the following document:
+
+```
+U.S. Department of Energy
+Energy Efficiency and Renewable Energy
+Building Technology Office
+Building American Best Practices Series
+Volume 7.3
+Guide to Determining Climate Regions by County
+Pacific Northwest National Laboratory
+August 2015
+```

@@ -1,9 +1,10 @@
 ---
 crosscompute: 0.9.4
 
-name: Climate Regions
-description: Guess climate region given longitude and latitude
+name: Determine Climate Region
+description: Determine climate region given longitude and latitude
 version: 0.1.0
+attribution_text: "[Development Laboratories México](https://www.devlabs.com.mx) @ 2023"
 
 input:
   variables:
@@ -15,7 +16,6 @@ input:
       path: variables.dictionary
   templates:
     - path: input.md
-
 
 output:
   variables:

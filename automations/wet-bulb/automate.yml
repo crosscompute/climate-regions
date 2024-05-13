@@ -1,9 +1,10 @@
 ---
 crosscompute: 0.9.4
 
-name: Wet Bulb Calculator
-description: Calculate wet bulb based on temperature and relative humidity
+name: Estimate Wet Bulb Temperature
+description: Estimate the wet bulb temperature based on temperature and relative humidity
 version: 0.1.0
+attribution_text: "[Development Laboratories México](https://www.devlabs.com.mx) @ 2023"
 
 input:
   variables:
