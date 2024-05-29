@@ -1,6 +1,0 @@
----
-crosscompute: 0.9.4
-imports:
-  - path: automations/climate-regions/automate.yml
-  - path: automations/wet-bulb/automate.yml
-  - path: automations/degree-days/automate.yml
