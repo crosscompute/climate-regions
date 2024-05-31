@@ -4,7 +4,8 @@ crosscompute: 0.9.4
 name: Estimate Wet Bulb Temperature
 description: Estimate the wet bulb temperature based on temperature and relative humidity
 version: 0.1.0
-attribution_text: "[Development Laboratories México](https://www.devlabs.com.mx) @ 2023"
+copyright:
+  text: "[Development Laboratories México](https://www.devlabs.com.mx) @ 2023"
 
 input:
   variables:
