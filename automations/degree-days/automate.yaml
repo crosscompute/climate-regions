@@ -37,8 +37,8 @@ environment:
     - id: matplotlib
       manager: pip
 
-batches:
-  - folder: batches/standard
+presets:
+  - folder: presets/standard
 
 scripts:
   - path: run.ipynb

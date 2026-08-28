@@ -1,0 +1,47 @@
+{
+    "climate_region": "Marine",
+    "summary": {
+        "Hot-Humid": {
+            "selected": false,
+            "Receives more than 20 inches (50 cm) of annual precipitation": "true",
+            "A 67\u00b0F (19.5\u00b0C) or higher wet bulb temperature for 3,000 or more hours during the warmest six consecutive months of the year": false,
+            "Or a 73\u00b0F (23\u00b0C) or higher wet bulb temperature for 1,500 or more hours during the warmest six consecutive months of the year": false
+        },
+        "Mixed-Humid": {
+            "selected": "false",
+            "Receives more than 20 inches (50 cm) of annual precipitation": "true",
+            "Has approximately 5,400 heating degree days 65\u00b0F basis (18.3333 \u00b0C) or fewer": "true",
+            "Where the average monthly outdoor temperature drops below 45\u00b0F (7\u00b0C) during the winter months": "false"
+        },
+        "Hot-Dry": {
+            "selected": "false",
+            "A region that receives less than 20 inches (50 cm) of annual precipitation": "false",
+            "where the monthly average outdoor temperature remains above 45\u00b0F (7\u00b0C) throughout the year": "true"
+        },
+        "Mixed-Dry": {
+            "selected": "false",
+            "A region that receives less than 20 inches (50 cm) of annual precipitation": "false",
+            "Has approximately 5,400 heating degree days (65\u00b0F basis) or less": "true",
+            "where the monthly average outdoor temperature remains above 45\u00b0F (7\u00b0C) throughout the year": "false"
+        },
+        "Cold": {
+            "selected": "false",
+            "A region with between 5,400 and 9,000 heating degree days (65\u00b0F basis)": "false"
+        },
+        "Very-Cold": {
+            "selected": "false",
+            "A region with between 9,000 and 12,600 heating degree days (65\u00b0F basis)": "false"
+        },
+        "Subarctic": {
+            "selected": "false",
+            "A region with 12,600 heating degree days (65\u00b0 basis) or more": "false"
+        },
+        "Marine": {
+            "selected": "true",
+            "A coldest month mean temperature between 27\u00b0F (-3\u00b0C) and 65\u00b0F (18\u00b0C)": "true",
+            "A warmest month mean of less than 72\u00b0F (22\u00b0C)": "true",
+            "At least 4 months with mean temperatures higher than 50\u00b0F (10\u00b0C)": true,
+            "A dry season in summer. The month with the heaviest precipitation in the cold season has at least three times as much precipitation as the month with the least precipitation in the rest of the year.": "true"
+        }
+    }
+}
